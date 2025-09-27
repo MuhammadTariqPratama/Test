@@ -7,7 +7,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
@@ -25,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/MuhammadTariqPratama/Test/issues"
   },
-  "homepage": "https://github.com/MuhammadTariqPratama/Test#readme"
+  "homepage": "https://github.com/MuhammadTariqPratama/Test#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
